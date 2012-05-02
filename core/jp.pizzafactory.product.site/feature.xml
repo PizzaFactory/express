@@ -2,15 +2,16 @@
 <feature
       id="jp.pizzafactory.product.site"
       label="PizzaFactory Product Site"
-      version="6.0.0.qualifier"
-      provider-name="Monami Software Limited Partnership, JAPAN.">
+      version="8.0.2.qualifier"
+      provider-name="Monami-ya LLC, Japan.">
 
    <description url="http://www.pizzafactory.jp/">
       PizzaFactory IDE
    </description>
 
    <copyright>
-      Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.
+      Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.\n\
+      Copyright (C) 2012-     Monami-ya LLC, Japan.
    </copyright>
 
    <includes

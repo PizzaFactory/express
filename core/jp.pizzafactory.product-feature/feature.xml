@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.product"
       label="PizzaFactory8"
-      version="8.0.0.qualifier"
+      version="8.0.2.qualifier"
       provider-name="Monami-ya LLC, JAPAN."
       plugin="jp.pizzafactory.product">
 
@@ -11,7 +11,8 @@
    </description>
 
    <copyright url="http://www.example.com/copyright">
-      Product: Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.
+      Product: Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.\n\
+      Product: Copyright (C) 2012-     Monami-ya LLC, Japan.\n\
 It contains so many open source software in this product.
 See also copyright notice in those software.
    </copyright>
@@ -22,14 +23,9 @@ See also copyright notice in those software.
 
    <url>
       <update label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8/"/>
-      <discovery label="PizzaFactory6 Update Site" url="http://download.pizzafactory.jp/update6/"/>
+      <discovery label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8/"/>
    </url>
 
-<!--
-   <includes
-         id="gnu.io.rxtx"
-         version="0.0.0"/>
--->
    <includes
          id="org.eclipse.cdt"
          version="0.0.0"/>
@@ -100,6 +96,11 @@ See also copyright notice in those software.
 
    <includes
          id="jp.pizzafactory.crosschains.arm.elf"
+         version="0.0.0"
+         optional="true"/>
+
+   <includes
+         id="jp.pizzafactory.crosschains.common"
          version="0.0.0"/>
 
    <plugin
