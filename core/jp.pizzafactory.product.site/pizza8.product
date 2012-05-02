@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="PizzaFactory8 Express" id="jp.pizzafactory.product.ide" application="org.eclipse.ui.ide.workbench" version="8.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/jp.pizzafactory.product/images/pizza_lg.gif"/>
+      <text>
+         Copyright (C) 2010-2011 Monami Software Limited Partnership, JAPAN. All rights reserved.
+Copyright (C) 2012- Monami-ya LLC, Japan. All rights reserved.
+There are components included under open source license in this product. See each license in their features.
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -d32</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i32="/jp.pizzafactory.product/images/pizza32x32.png"/>
+
+   <splash
+      location="jp.pizzafactory.product"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="000000" />
+   <launcher name="pizza8">
+      <linux icon="/jp.pizzafactory.product-feature/pizza.xpm"/>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <license>
+        <text>
+   This product is provided AS-IS. No support. All rights reserved excepts modules licensed under open source licenses.
+         </text>
+   </license>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="jp.pizzafactory.product" version="8.0.0.qualifier"/>
+   </features>
+
+
+</product>

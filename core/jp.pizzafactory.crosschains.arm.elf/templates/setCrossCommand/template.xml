@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<template type="ProjTempl" version="1.0" supplier="PizzaFactory.jp" revision="1.0" author="EclipseCon and Monami-ya LLC"
+		copyright="Copyright (c) 2009 EclipseCon and others. All rights reserved. This program and the accompanying materials are made available under the terms of the Eclipse Public License v1.0 which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html"
+		id="EmptyProject" label="Pizzafactory Standalone Project" description="Set up PizzaFactory standalone cross compiler"
+		 help="help.html">
+
+	<property-group id="command" label="Command" description="The Cross Compile Command is set for PizzaFactory arm-elf" type="PAGES-ONLY" help="help.html">
+		<property id="prefix"
+			label="Tool command prefix"
+			description="The prefix to attach to the build commands, e.g. gcc"
+			type="input"
+			pattern=".*"
+			default="arm-pizzafactory-elf-"
+			hidden="true"
+			persist="true"/>
+
+		<property id="path"
+			label="Tool command path"
+			description="The root directory for the toolchain"
+			type="browsedir"
+			pattern=".*"
+			default=""
+			hidden="true"
+			persist="true"/>
+	</property-group>
+	
+	<process type="org.eclipse.cdt.build.crossgcc.setCrossCommand">
+		<simple name="projectName" value="$(projectName)"/>
+		<simple name="prefix" value="$(prefix)"/>
+		<simple name="path" value="$(path)"/>
+	</process>
+	
+</template>

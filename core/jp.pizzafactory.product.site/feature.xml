@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="jp.pizzafactory.product.site"
+      label="PizzaFactory Product Site"
+      version="6.0.0.qualifier"
+      provider-name="Monami Software Limited Partnership, JAPAN.">
+
+   <description url="http://www.pizzafactory.jp/">
+      PizzaFactory IDE
+   </description>
+
+   <copyright>
+      Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.
+   </copyright>
+
+   <includes
+         id="jp.pizzafactory.product"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="0.0.0"/>
+
+</feature>
