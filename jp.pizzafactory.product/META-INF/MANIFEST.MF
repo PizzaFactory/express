@@ -2,5 +2,5 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: PizzaFactory8 Express
 Bundle-SymbolicName: jp.pizzafactory.product;singleton:=true
-Bundle-Version: 8.0.0.qualifier
+Bundle-Version: 8.0.3.qualifier
 Bundle-Vendor: Monami-ya LLC, Japan

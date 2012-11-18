@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="PizzaFactory8 Express" id="jp.pizzafactory.product.ide" application="org.eclipse.ui.ide.workbench" version="8.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="PizzaFactory8 Express (CQ)" uid="pizzafactory-cq.product" id="jp.pizzafactory.product.ide" application="org.eclipse.ui.ide.workbench" version="0.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/jp.pizzafactory.product/images/pizza_lg.gif"/>
@@ -47,7 +47,7 @@ There are components included under open source license in this product. See eac
    </plugins>
 
    <features>
-      <feature id="jp.pizzafactory.product" version="8.0.0.qualifier"/>
+      <feature id="jp.pizzafactory.product" version="8.0.3.qualifier"/>
    </features>
 
 

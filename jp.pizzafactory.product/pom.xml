@@ -4,10 +4,10 @@
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>jp.pizzafactory-feature</groupId>
-  <artifactId>jp.pizzafactory.crosschains.arm.elf</artifactId>
   <version>8.0.3-SNAPSHOT</version>
-  <packaging>eclipse-feature</packaging>
+  <groupId>jp.pizzafactory</groupId>
+  <artifactId>jp.pizzafactory.product</artifactId>
+  <packaging>eclipse-plugin</packaging>
 
   <parent>
     <groupId>jp.pizzafactory</groupId>
