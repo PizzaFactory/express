@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: jp.pizzafactory.crosschains.arm.elf;singleton:=true
-Bundle-Version: 8.0.3.qualifier
+Bundle-Version: 8.0.3
 Bundle-Activator: jp.pizzafactory.crosshains.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.cdt.core;bundle-version="5.1.0",

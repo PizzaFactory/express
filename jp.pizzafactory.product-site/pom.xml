@@ -4,12 +4,12 @@
     xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <version>8.0.3-SNAPSHOT</version>
+        <version>8.0.3</version>
         <groupId>jp.pizzafactory</groupId>
         <artifactId>product-cq</artifactId>
     </parent>
 
-    <version>8.0.3-SNAPSHOT</version>
+    <version>8.0.3</version>
     <groupId>jp.pizzafactory</groupId>
     <artifactId>jp.pizzafactory.product.site</artifactId>
     <packaging>eclipse-repository</packaging>
