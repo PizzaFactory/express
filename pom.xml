@@ -33,6 +33,7 @@
     <tycho-version>0.16.0</tycho-version>
     <tycho-extras.version>0.16.0</tycho-extras.version>
     <tycho-groupid>org.eclipse.tycho</tycho-groupid>
+    <pizzafactory-version>(CQ Edition)</pizzafactory-version>
   </properties>
 
   <scm>
@@ -130,8 +131,8 @@
           </execution>
         </executions>
         <configuration>
-          <metadataRepositoryName>PizzaFactory (CQ Edition)</metadataRepositoryName>
-          <artifactRepositoryName>PizzaFactory (CQ Edition)</artifactRepositoryName>
+          <metadataRepositoryName>PizzaFactory ${pizzafactory-version}</metadataRepositoryName>
+          <artifactRepositoryName>PizzaFactory ${pizzafactory-version}</artifactRepositoryName>
           <compressRepository>true</compressRepository>
         </configuration>
       </plugin>
