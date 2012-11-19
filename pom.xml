@@ -9,11 +9,11 @@
   </prerequisites>
 
   <groupId>jp.pizzafactory</groupId>
-  <artifactId>product-cq</artifactId>
+  <artifactId>product</artifactId>
   <version>8.0.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>PizzaFactory (CQ)</name>
+  <name>PizzaFactory</name>
 
   <licenses>
     <license>
@@ -33,7 +33,7 @@
     <tycho-version>0.16.0</tycho-version>
     <tycho-extras.version>0.16.0</tycho-extras.version>
     <tycho-groupid>org.eclipse.tycho</tycho-groupid>
-    <pizzafactory-version>(CQ Edition)</pizzafactory-version>
+    <pizzafactory-version>8</pizzafactory-version>
   </properties>
 
   <scm>
