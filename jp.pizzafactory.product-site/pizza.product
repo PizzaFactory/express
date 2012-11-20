@@ -61,6 +61,8 @@ There are components included under open source license in this product. See eac
 
       <property name="org.eclipse.update.reconcile" value="false" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
+
+      <property name="osgi.instance.area.default" value="@user.home/workspace" />
    </configurations>
   
 </product>
