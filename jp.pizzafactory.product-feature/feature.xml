@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="jp.pizzafactory.product"
+      label="PizzaFactory8"
+      version="8.0.3"
+      provider-name="Monami-ya LLC, JAPAN."
+      plugin="jp.pizzafactory.product">
+
+   <description url="http://www.pizzafactory.jp/">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Product: Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.\n\
+      Product: Copyright (C) 2012-     Monami-ya LLC, Japan.\n\
+It contains so many open source software in this product.
+See also copyright notice in those software.
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      See license information in your install package.
+   </license>
+
+   <url>
+      <update label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8/"/>
+      <discovery label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.cdt"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.debug.gdbjtag"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.debug.ui.memory"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.build"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.debug"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.dsf"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.platform"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cvs"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.user.ui"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.platform"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.serial"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.ssh"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.telnet"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.view"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.cdt.build.crossgcc"
+         version="0.0.0"/>
+
+   <includes
+         id="jp.pizzafactory.crosschains.arm.elf"
+         version="0.0.0"
+         optional="true"/>
+
+   <includes
+         id="jp.pizzafactory.crosschains.common"
+         version="0.0.0"/>
+
+   <plugin
+         id="jp.pizzafactory.product"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>
