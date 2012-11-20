@@ -25,4 +25,11 @@
       <import feature="jp.pizzafactory.crosschains.common" version="8.0.3.qualifier"/>
    </requires>
 
+   <plugin
+         id="jp.pizzafactory.crosschains.arm.elf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0.qualifier"
+         unpack="false"/>
+
 </feature>
