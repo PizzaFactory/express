@@ -6,13 +6,13 @@
 
   <groupId>jp.pizzafactory</groupId>
   <artifactId>product-target</artifactId>
-  <version>8.0.3-SNAPSHOT</version>
+  <version>8.0.3.R201211251224</version>
   <packaging>eclipse-target-definition</packaging>
 
   <name>PizzaFactory (Target definition)</name>
 
   <parent>
-    <version>8.0.3-SNAPSHOT</version>
+    <version>8.0.3.R201211251224</version>
     <groupId>jp.pizzafactory</groupId>
     <artifactId>product-cq</artifactId>
   </parent>

@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.crosschains.arm.elf"
       label="%featureName"
-      version="8.0.3.qualifier"
+      version="8.0.3.R201211251224"
       provider-name="%providerName">
 
    <description>
@@ -29,7 +29,7 @@
          id="jp.pizzafactory.crosschains.arm.elf"
          download-size="0"
          install-size="0"
-         version="8.0.3.qualifier"
+         version="8.0.3.R201211251224"
          unpack="false"/>
 
 </feature>

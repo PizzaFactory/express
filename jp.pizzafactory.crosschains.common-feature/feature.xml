@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.crosschains.common"
       label="%featureName"
-      version="8.0.3.qualifier"
+      version="8.0.3.R201211251224"
       provider-name="%providerName">
 
    <description>
