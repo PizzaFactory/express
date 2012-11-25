@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.product"
       label="PizzaFactory8"
-      version="8.0.3.R201211251224"
+      version="8.0.4.qualifier"
       provider-name="Monami-ya LLC, JAPAN."
       plugin="jp.pizzafactory.product">
 
