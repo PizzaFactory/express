@@ -22,7 +22,7 @@
    </url>
 
    <requires>
-      <import feature="jp.pizzafactory.crosschains.common" version="8.0.3.qualifier"/>
+      <import feature="jp.pizzafactory.crosschains.common" version="8.0.4.qualifier"/>
    </requires>
 
    <plugin
