@@ -9,7 +9,7 @@
         <artifactId>product-cq</artifactId>
     </parent>
 
-    <version>8.0.3.R201211251224</version>
+    <version>8.0.3.R201212010150</version>
     <groupId>jp.pizzafactory</groupId>
     <artifactId>jp.pizzafactory.product.site</artifactId>
     <packaging>eclipse-repository</packaging>
