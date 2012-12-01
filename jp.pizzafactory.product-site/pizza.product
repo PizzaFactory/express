@@ -48,6 +48,7 @@ There are components included under open source license in this product. See eac
 
    <features>
       <feature id="jp.pizzafactory.product" version="0.0.0"/>
+      <feature id="jp.pizzafactory.crosschains.arm.elf" version="0.0.0"/>
    </features>
 
 
