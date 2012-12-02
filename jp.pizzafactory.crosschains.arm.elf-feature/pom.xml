@@ -6,7 +6,7 @@
 
   <groupId>jp.pizzafactory-feature</groupId>
   <artifactId>jp.pizzafactory.crosschains.arm.elf</artifactId>
-  <version>8.0.4-SNAPSHOT</version>
+  <version>8.0.3.R201212010150</version>
   <packaging>eclipse-feature</packaging>
 
   <parent>
