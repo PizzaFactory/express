@@ -94,15 +94,6 @@ See also copyright notice in those software.
          id="org.eclipse.cdt.build.crossgcc"
          version="0.0.0"/>
 
-   <includes
-         id="jp.pizzafactory.crosschains.arm.elf"
-         version="0.0.0"
-         optional="true"/>
-
-   <includes
-         id="jp.pizzafactory.crosschains.common"
-         version="0.0.0"/>
-
    <plugin
          id="jp.pizzafactory.product"
          download-size="0"

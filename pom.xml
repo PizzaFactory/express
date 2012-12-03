@@ -42,9 +42,6 @@
 
   <modules>
     <module>build-target</module>
-    <module>jp.pizzafactory.crosschains.arm.elf</module>
-    <module>jp.pizzafactory.crosschains.arm.elf-feature</module>
-    <module>jp.pizzafactory.crosschains.common-feature</module>
     <module>jp.pizzafactory.product</module>
     <module>jp.pizzafactory.product-feature</module>
     <module>jp.pizzafactory.product-site</module>
