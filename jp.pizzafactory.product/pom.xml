@@ -9,6 +9,8 @@
   <artifactId>jp.pizzafactory.product</artifactId>
   <packaging>eclipse-plugin</packaging>
 
+  <name>PizzaFactory product plugin</name>
+
   <parent>
     <groupId>jp.pizzafactory</groupId>
     <artifactId>product</artifactId>
