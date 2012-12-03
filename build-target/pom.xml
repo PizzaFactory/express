@@ -12,7 +12,7 @@
   <name>PizzaFactory (Target definition)</name>
 
   <parent>
-    <version>8.0.3.R201212010150</version>
+    <version>8.0.4-SNAPSHOT</version>
     <groupId>jp.pizzafactory</groupId>
     <artifactId>product</artifactId>
   </parent>
