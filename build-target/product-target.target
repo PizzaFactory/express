@@ -36,7 +36,7 @@
 <unit id="org.eclipse.cdt.debug.ui.memory.feature.group" version="2.1.200.201202111925"/>
 <unit id="org.eclipse.cdt.core.lrparser.feature.feature.group" version="5.2.0.201202111925"/>
 <unit id="org.eclipse.cdt.util.feature.group" version="5.1.0.201202111925"/>
-<repository location="jar:file:/Users/monaka/Downloads/cdt-master-8.0.2.zip!/"/>
+<repository location="http://download.eclipse.org/releases/indigo"/>
 </location>
 </locations>
 <environment>
