@@ -9,11 +9,11 @@
   </prerequisites>
 
   <groupId>jp.pizzafactory</groupId>
-  <artifactId>product-cq</artifactId>
-  <version>8.0.3.R201212010150</version>
+  <artifactId>product</artifactId>
+  <version>8.0.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>PizzaFactory (CQ)</name>
+  <name>PizzaFactory</name>
 
   <licenses>
     <license>
@@ -34,7 +34,7 @@
     <tycho-version>0.16.0</tycho-version>
     <tycho-extras.version>0.16.0</tycho-extras.version>
     <tycho-groupid>org.eclipse.tycho</tycho-groupid>
-    <pizzafactory-version>(CQ Edition)</pizzafactory-version>
+    <pizzafactory-version>8</pizzafactory-version>
   </properties>
 
   <scm>
@@ -43,9 +43,6 @@
 
   <modules>
     <module>build-target</module>
-    <module>jp.pizzafactory.crosschains.arm.elf</module>
-    <module>jp.pizzafactory.crosschains.arm.elf-feature</module>
-    <module>jp.pizzafactory.crosschains.common-feature</module>
     <module>jp.pizzafactory.product</module>
     <module>jp.pizzafactory.product-feature</module>
     <module>jp.pizzafactory.product-site</module>
@@ -104,7 +101,7 @@
             <artifact>
               <groupId>jp.pizzafactory</groupId>
               <artifactId>product-target</artifactId>
-              <version>8.0.3-SNAPSHOT</version>
+              <version>8.0.4-SNAPSHOT</version>
             </artifact>
           </target>
         </configuration>

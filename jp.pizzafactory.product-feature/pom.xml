@@ -6,13 +6,15 @@
 
   <groupId>jp.pizzafactory-feature</groupId>
   <artifactId>jp.pizzafactory.product</artifactId>
-  <version>8.0.3.R201211251224</version>
+  <version>8.0.4-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
+
+  <name>PizzaFactory product feature</name>
 
   <parent>
     <groupId>jp.pizzafactory</groupId>
-    <artifactId>product-cq</artifactId>
-    <version>8.0.3.R201212010150</version>
+    <artifactId>product</artifactId>
+    <version>8.0.4-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 

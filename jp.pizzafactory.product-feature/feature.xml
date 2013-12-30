@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.product"
       label="PizzaFactory8"
-      version="8.0.3.R201211251224"
+      version="8.0.4.qualifier"
       provider-name="Monami-ya LLC, JAPAN."
       plugin="jp.pizzafactory.product">
 
@@ -92,15 +92,6 @@ See also copyright notice in those software.
 
    <includes
          id="org.eclipse.cdt.build.crossgcc"
-         version="0.0.0"/>
-
-   <includes
-         id="jp.pizzafactory.crosschains.arm.elf"
-         version="0.0.0"
-         optional="true"/>
-
-   <includes
-         id="jp.pizzafactory.crosschains.common"
          version="0.0.0"/>
 
    <plugin
