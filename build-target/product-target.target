@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="PizzaFactory8" sequenceNumber="116">
+<?pde version="3.8"?><target name="PizzaFactory8" sequenceNumber="117">
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.platform.ide" version="3.7.2.M20120208-0800"/>
@@ -24,7 +24,12 @@
 <repository location="http://download.eclipse.org/tools/cdt/releases/indigo"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.platform.ide" version="3.7.2.M20120208-0800"/>
+<unit id="org.eclipse.tm.terminal.telnet.feature.group" version="2.1.0.v201103142315-30-7w312213121A22"/>
+<unit id="org.eclipse.tm.terminal.serial.feature.group" version="2.1.0.v201103142315-30-7w312212153266"/>
+<unit id="org.eclipse.tm.terminal.ssh.feature.group" version="2.1.0.v201103142315-30-7w312212153266"/>
+<unit id="org.eclipse.tm.terminal.feature.group" version="3.1.1.R33x_v201106281309-4007S44yaw312218292641"/>
+<unit id="org.eclipse.tm.terminal.sdk.feature.group" version="3.2.1.R33x_v201106281309-7N7B1BbVJv-SaPEOkhsVVd_C3752"/>
+<unit id="org.eclipse.tm.terminal.view.feature.group" version="2.2.0.v201103142315-31-7w312214253426"/>
 <repository location="http://download.eclipse.org/releases/indigo"/>
 </location>
 </locations>
