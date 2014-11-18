@@ -42,10 +42,10 @@
   </scm>
 
   <modules>
-    <module>build-target</module>
-    <module>jp.pizzafactory.product</module>
-    <module>jp.pizzafactory.product-feature</module>
-    <module>jp.pizzafactory.product-site</module>
+    <module>../build-target</module>
+    <module>../jp.pizzafactory.product</module>
+    <module>../jp.pizzafactory.product-feature</module>
+    <module>../jp.pizzafactory.product-site</module>
   </modules>
 
   <profiles>
@@ -66,7 +66,12 @@
 
   <repositories>
     <repository>
-      <id>aws-snapshot</id>
+      <id>Indigo</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/eclipse/updates/3.7</url>
+    </repository>
+    <repository>
+      <id>gcs-snapshot</id>
       <name>e2studio snapshot</name>
       <url>http://update.pizzafactory.jp/pizzafactory-tycho-repo/snapshot</url>
       <snapshots>
@@ -75,7 +80,7 @@
       </snapshots>
     </repository>
     <repository>
-      <id>aws-release</id>
+      <id>gcs-release</id>
       <name>e2studio release</name>
       <url>http://update.pizzafactory.jp/pizzafactory-tycho-repo/release</url>
     </repository>
@@ -101,7 +106,7 @@
             <artifact>
               <groupId>jp.pizzafactory</groupId>
               <artifactId>product-target</artifactId>
-              <version>8.0.4-SNAPSHOT</version>
+              <version>8.0.5-SNAPSHOT</version>
             </artifact>
           </target>
         </configuration>
@@ -198,16 +203,24 @@
     </plugins>
 
     <extensions>
+<!--
       <extension>
         <groupId>org.springframework.build.aws</groupId>
         <artifactId>org.springframework.build.aws.maven</artifactId>
         <version>3.0.0.RELEASE</version>
+      </extension>
+-->
+      <extension>
+        <groupId>net.anzix.aws</groupId>
+        <artifactId>s3-maven-wagon</artifactId>
+        <version>3.2</version>
       </extension>
     </extensions>
 
   </build>
 
   <distributionManagement>
+<!--
     <repository>
       <id>aws-release</id>
       <name>AWS Release Repository</name>
@@ -217,6 +230,17 @@
       <id>aws-snapshot</id>
       <name>AWS Snapshot Repository</name>
        <url>s3://update.pizzafactory.jp/pizzafactory-tycho-repo/snapshot</url>
+    </snapshotRepository>
+-->
+    <repository>
+      <id>gcs-release</id>
+      <name>GCS Release Repository</name>
+      <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/pizzafactory-tycho-repo/release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>gcs-snapshot</id>
+      <name>GCS Snapshot Repository</name>
+       <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/pizzafactory-tycho-repo/snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 

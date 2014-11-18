@@ -4,13 +4,12 @@
     xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <version>8.0.5-SNAPSHOT</version>
         <groupId>jp.pizzafactory</groupId>
         <artifactId>product</artifactId>
+        <version>8.0.5-SNAPSHOT</version>
+        <relativePath>../jp.pizzafactory.product-parent/pom.xml</relativePath>
     </parent>
 
-    <version>8.0.5-SNAPSHOT</version>
-    <groupId>jp.pizzafactory</groupId>
     <artifactId>jp.pizzafactory.product.site</artifactId>
     <packaging>eclipse-repository</packaging>
 
@@ -51,10 +50,10 @@
           <artifactId>wagon-maven-plugin</artifactId>
           <version>1.0-beta-4</version>
           <configuration>
-            <serverId>aws-release</serverId>
-            <url>s3://update.pizzafactory.jp/express/8/</url>
+            <serverId>gcs-release</serverId>
+            <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/express/8/</url>
             <fromDir>target/repository</fromDir>
-            <toDir>build_${project.version}</toDir>
+            <toDir>build_${buildQualifier}</toDir>
           </configuration>
           <executions>
             <execution>

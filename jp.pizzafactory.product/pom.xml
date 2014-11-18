@@ -4,8 +4,6 @@
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <version>8.0.5-SNAPSHOT</version>
-  <groupId>jp.pizzafactory</groupId>
   <artifactId>jp.pizzafactory.product</artifactId>
   <packaging>eclipse-plugin</packaging>
 
@@ -15,7 +13,7 @@
     <groupId>jp.pizzafactory</groupId>
     <artifactId>product</artifactId>
     <version>8.0.5-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath>../jp.pizzafactory.product-parent/pom.xml</relativePath>
   </parent>
 
 </project>

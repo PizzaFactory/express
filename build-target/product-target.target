@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.6"?>
-
-<target name="PizzaFactory8" sequenceNumber="115">
+<?pde version="3.8"?><target name="PizzaFactory8" sequenceNumber="116">
 <locations>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.platform.ide" version="3.7.2.M20120208-0800"/>
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.5.1.v20111216-1653-7P7NFUIFIbaUcU77s0KQWHw5HZTZ"/>
 <unit id="org.eclipse.platform.sdk" version="3.7.2.M20120208-0800"/>
@@ -12,20 +10,7 @@
 <unit id="org.eclipse.sdk.ide" version="3.7.2.M20120208-0800"/>
 <repository location="http://download.eclipse.org/eclipse/updates/3.7"/>
 </location>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="gnu.io.rxtx.feature.group" version="2.1.7.4_v20071016-7B57e7UAXMAAqGAGf"/>
-<repository location="http://rxtx.qbang.org/eclipse/"/>
-</location>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.tm.terminal.sdk.feature.group" version="3.2.1.R33x_v201106281309-7N7B1BbVJv-SaPEOkhsVVd_C3752"/>
-<unit id="org.eclipse.tm.terminal.serial.feature.group" version="2.1.0.v201103142315-30-7w312212153266"/>
-<unit id="org.eclipse.tm.terminal.ssh.feature.group" version="2.1.0.v201103142315-30-7w312212153266"/>
-<unit id="org.eclipse.tm.terminal.telnet.feature.group" version="2.1.0.v201103142315-30-7w312213121A22"/>
-<unit id="org.eclipse.tm.terminal.view.feature.group" version="2.2.0.v201103142315-31-7w312214253426"/>
-<unit id="org.eclipse.tm.terminal.feature.group" version="3.1.1.R33x_v201106281309-4007S44yaw312218292641"/>
-<repository location="http://download.eclipse.org/releases/indigo"/>
-</location>
-<location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.cdt.examples.dsf.feature.group" version="2.1.0.201202111925"/>
 <unit id="org.eclipse.cdt.platform.feature.group" version="8.0.2.201202111925"/>
 <unit id="org.eclipse.cdt.feature.group" version="8.0.2.201202111925"/>
@@ -38,10 +23,15 @@
 <unit id="org.eclipse.cdt.util.feature.group" version="5.1.0.201202111925"/>
 <repository location="http://download.eclipse.org/tools/cdt/releases/indigo"/>
 </location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.ide" version="3.7.2.M20120208-0800"/>
+<repository location="http://download.eclipse.org/releases/indigo"/>
+</location>
 </locations>
 <environment>
 <os>win32</os>
 <ws>win32</ws>
 <arch>x86</arch>
 </environment>
+<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 </target>

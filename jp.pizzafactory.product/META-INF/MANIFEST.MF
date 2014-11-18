@@ -4,3 +4,4 @@ Bundle-Name: PizzaFactory8
 Bundle-SymbolicName: jp.pizzafactory.product;singleton:=true
 Bundle-Version: 8.0.5.qualifier
 Bundle-Vendor: Monami-ya LLC, Japan
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
