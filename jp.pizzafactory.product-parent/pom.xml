@@ -67,23 +67,24 @@
 
   <repositories>
     <repository>
-      <id>Indigo</id>
+      <id>Licenses</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/eclipse/updates/3.7</url>
+      <url>http://download.eclipse.org/cbi/updates/license/</url>
     </repository>
     <repository>
-      <id>gcs-snapshot</id>
-      <name>e2studio snapshot</name>
-      <url>http://update.pizzafactory.jp/pizzafactory-tycho-repo/snapshot</url>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
+      <id>updates</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/eclipse/updates/4.2/</url>
     </repository>
     <repository>
-      <id>gcs-release</id>
-      <name>e2studio release</name>
-      <url>http://update.pizzafactory.jp/pizzafactory-tycho-repo/release</url>
+      <id>Luna</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/releases/luna/</url>
+    </repository>
+    <repository>
+      <id>CDT</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/tools/cdt/releases/8.5/</url>
     </repository>
   </repositories>
 
