@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/jp.pizzafactory.product.feature_8.0.5.qualifier.jar" id="jp.pizzafactory.product.feature" version="8.0.5.qualifier">
+   <feature url="features/jp.pizzafactory.product.feature_8.5.0.qualifier.jar" id="jp.pizzafactory.product.feature" version="8.5.0.qualifier">
       <category name="PizzaFactory Core"/>
    </feature>
-   <category-def name="PizzaFactory Core" label="PizzaFactory Core"/>
+   <category-def name="PizzaFactory Core" label="PizzaFactory Express">
+      <description>
+         Core IDE components for PizzaFactory.
+      </description>
+   </category-def>
 </site>
