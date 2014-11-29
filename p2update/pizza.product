@@ -27,7 +27,7 @@ There are components included under open source license in this product. See eac
       startupMessageRect="7,252,445,20"
       startupForegroundColor="000000" />
    <launcher name="pizza8">
-      <linux icon="/jp.pizzafactory.express-feature/pizza.xpm"/>
+      <linux icon="images/pizza.xpm"/>
       <solaris/>
       <win useIco="false">
          <bmp/>
