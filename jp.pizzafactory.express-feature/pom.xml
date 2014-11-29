@@ -4,10 +4,10 @@
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>jp.pizzafactory.product.feature</artifactId>
+  <artifactId>jp.pizzafactory.express</artifactId>
   <packaging>eclipse-feature</packaging>
 
-  <name>PizzaFactory product feature</name>
+  <name>PizzaFactory Express Product Feature</name>
 
   <parent>
     <groupId>jp.pizzafactory.express</groupId>

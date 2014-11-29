@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="jp.pizzafactory.product.feature"
+      id="jp.pizzafactory.express"
       label="PizzaFactory8"
       version="8.5.0.qualifier"
       provider-name="PizzaFactory Project"

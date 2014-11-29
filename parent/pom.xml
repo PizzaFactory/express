@@ -45,7 +45,7 @@
   <modules>
     <module>../build-target</module>
     <module>../jp.pizzafactory.product</module>
-    <module>../jp.pizzafactory.product-feature</module>
+    <module>../jp.pizzafactory.express-feature</module>
     <module>../p2update</module>
   </modules>
 
