@@ -25,7 +25,7 @@ See also copyright notices in those software.
    </license>
 
    <url>
-      <update label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8/"/>
+      <update label="PizzaFactory8 Update Site" url="http://update.pizzafactory.jp/express/8.5/"/>
       <discovery label="PizzaFactory8.5 Update Site" url="http://update.pizzafactory.jp/express/8.5/"/>
    </url>
 
