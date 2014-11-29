@@ -4,7 +4,7 @@
       label="PizzaFactory8"
       version="8.5.0.qualifier"
       provider-name="PizzaFactory Project"
-      plugin="jp.pizzafactory.product"
+      plugin="jp.pizzafactory.express.branding"
       license-feature="org.eclipse.license"
       license-feature-version="1.0.1.v20140414-1359">
 
@@ -158,7 +158,7 @@ See also copyright notices in those software.
          version="0.0.0"/>
 
    <plugin
-         id="jp.pizzafactory.product"
+         id="jp.pizzafactory.express.branding"
          download-size="0"
          install-size="0"
          version="0.0.0"/>

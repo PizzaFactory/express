@@ -44,6 +44,7 @@ There are components included under open source license in this product. See eac
    </license>
 
    <plugins>
+     <plugin id="jp.pizzafactory.product" version="0.0.0"/>
    </plugins>
 
    <features>
