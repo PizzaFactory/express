@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='jp.pizzafactory.express.branding' version='8.5.0.v20141129-0901'>
+    <update id='jp.pizzafactory.express.branding' range='[0.0.0,8.5.0.v20141129-0901)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='PizzaFactory'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PizzaFactory Project'/>
+      <property name='maven-groupId' value='jp.pizzafactory.express'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.express.branding'/>
+      <property name='maven-version' value='8.5.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.express.branding' version='8.5.0.v20141129-0901'/>
+      <provided namespace='osgi.bundle' name='jp.pizzafactory.express.branding' version='8.5.0.v20141129-0901'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='jp.pizzafactory.express.branding' version='8.5.0.v20141129-0901'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: jp.pizzafactory.express.branding;singleton:=true&#xA;Bundle-Version: 8.5.0.v20141129-0901&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
