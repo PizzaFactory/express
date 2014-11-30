@@ -4,7 +4,7 @@ env:
     secure: gYO0xRy5H+OGtUKA5LtqnSGBjxNOsGYmNkDm5GdQ1oxzYVooZxoZl+Hx/wo2piKKek6+AIXQxehOECJruWCyhYo8JCcxYgEVkBjV8ToepbM9SWM1jZdv7SMRW69DCFL3p+VJUeQYjNzdPkcNgltWPBeQyQ8rJv6Hw+eLYgorWpk=
 before_install:
  - export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=128m"
- - "git clone -b travis $(git config --get remote.origin.url) target/travis"
+ - "git clone --depth 1 -b travis $(git config --get remote.origin.url) target/travis"
  - "(cd target/travis; openssl aes-256-cbc -k $DECRYPT_KEY -in encrypted.enc -d -a | tar xf -)"
 script: mvn -f parent/pom.xml install --settings target/travis/settings.xml
 branches:
