@@ -203,6 +203,14 @@
         <version>2.2.1</version>
       </plugin>
     </plugins>
+
+    <extensions>
+      <extension>
+        <groupId>net.anzix.aws</groupId>
+        <artifactId>s3-maven-wagon</artifactId>
+        <version>3.2</version>
+      </extension>
+    </extensions>
   </build>
   <url>http://www.pizzafactory.jp/</url>
   <organization>
