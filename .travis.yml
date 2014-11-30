@@ -6,6 +6,6 @@ before_install:
  - export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=128m"
  - "git clone --depth 1 -b travis $(git config --get remote.origin.url) target/travis"
  - "(cd target/travis; openssl aes-256-cbc -k $DECRYPT_KEY -in encrypted.enc -d -a | tar xf -)"
-script: mvn -f parent/pom.xml install --settings target/travis/settings.xml
+script: mvn -f parent/pom.xml -s target/travis/settings.xml deploy
 branches:
   except: travis
