@@ -7,3 +7,5 @@ before_install:
  - "git clone -b travis $(git config --get remote.origin.url) target/travis"
  - "(cd target/travis; openssl aes-256-cbc -k $DECRYPT_KEY -in encrypted.enc -d -a | tar xf -)"
 script: mvn -f parent/pom.xml install --settings target/travis/settings.xml
+branches:
+  except: travis
