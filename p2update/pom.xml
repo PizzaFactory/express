@@ -46,9 +46,9 @@
           <version>1.0-beta-4</version>
           <configuration>
             <serverId>gcs-release</serverId>
-            <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/express/8/</url>
+            <url>gs://update.pizzafactory.jp/express/${pizzafactory-version}/</url>
             <fromDir>target/repository</fromDir>
-            <toDir>build_${buildQualifier}</toDir>
+            <toDir>build_${qualifiedVersion}</toDir>
           </configuration>
           <executions>
             <execution>

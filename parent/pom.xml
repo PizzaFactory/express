@@ -226,12 +226,12 @@
     <repository>
       <id>gcs-release</id>
       <name>GCS Release Repository</name>
-      <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/pizzafactory-tycho-repo/release/</url>
+      <url>gs://update.pizzafactory.jp/pizzafactory-tycho-repo/release</url>
     </repository>
     <snapshotRepository>
       <id>gcs-snapshot</id>
       <name>GCS Snapshot Repository</name>
-       <url>s3://update.pizzafactory.jp@commondatastorage.googleapis.com/pizzafactory-tycho-repo/snapshot</url>
+       <url>gs://update.pizzafactory.jp/pizzafactory-tycho-repo/snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
