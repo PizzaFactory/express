@@ -206,9 +206,9 @@
 
     <extensions>
       <extension>
-        <groupId>net.anzix.aws</groupId>
+        <groupId>jp.pizzafactory.maven</groupId>
         <artifactId>s3-maven-wagon</artifactId>
-        <version>3.2</version>
+        <version>3.3-SNAPSHOT</version>
       </extension>
     </extensions>
   </build>
