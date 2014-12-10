@@ -45,7 +45,10 @@ There are components included under open source license in this product. See eac
 
    <features>
       <feature id="jp.pizzafactory.express" version="0.0.0"/>
-      <feature id="jp.pizzafactory.jre" version="0.0.0"/>
+      <feature id="jp.pizzafactory.jre.x86.win32.win32" version="0.0.0"/>
+      <feature id="jp.pizzafactory.jre.x86_64.win32.win32" version="0.0.0"/>
+      <feature id="jp.pizzafactory.jre.x86.gtk.linux" version="0.0.0"/>
+      <feature id="jp.pizzafactory.jre.x86_64.gtk.linux" version="0.0.0"/>
    </features>
 
 
