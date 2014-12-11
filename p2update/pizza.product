@@ -28,8 +28,10 @@ There are components included under open source license in this product. See eac
       startupForegroundColor="000000" />
    <launcher name="pizza8_5">
       <linux icon="images/pizza.xpm"/>
+      <macosx icon="images/pizza.icns"/>
       <solaris/>
-      <win useIco="false">
+      <win useIco="true">
+         <ico path="images/pizza.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -39,7 +41,8 @@ There are components included under open source license in this product. See eac
 
    <license>
         <text>
-   This product is provided AS-IS. No support. All rights reserved excepts modules licensed under open source licenses.
+   EPL-1.0 and others.
+   This product is provided AS-IS. No support. All rights reserved excepts modules that are licensed under open source licenses.
          </text>
    </license>
 
