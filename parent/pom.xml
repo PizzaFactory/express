@@ -228,7 +228,7 @@
       <extension>
         <groupId>jp.pizzafactory.maven</groupId>
         <artifactId>s3-maven-wagon</artifactId>
-        <version>3.3-SNAPSHOT</version>
+        <version>3.3</version>
       </extension>
     </extensions>
   </build>
