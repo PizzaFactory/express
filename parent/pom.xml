@@ -249,14 +249,15 @@
 
   <distributionManagement>
     <repository>
-      <id>gcs-release</id>
-      <name>GCS Release Repository</name>
-      <url>gs://update.pizzafactory.jp/pizzafactory-tycho-repo/release</url>
+      <id>builder.monami-ya.com</id>
+      <name>Nexus Release Repository on Monami-ya</name>
+      <url>http://builder.monami-ya.com:8080/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>gcs-snapshot</id>
-      <name>GCS Snapshot Repository</name>
-       <url>gs://update.pizzafactory.jp/pizzafactory-tycho-repo/snapshot</url>
+      <id>builder.monami-ya.com</id>
+      <name>Nexus Snapshot Repository on Monami-ya</name>
+      <url>http://builder.monami-ya.com:8080/nexus/content/repositories/snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
+
 </project>

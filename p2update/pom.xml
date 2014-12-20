@@ -40,27 +40,6 @@
           </executions>
         </plugin>
 
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>wagon-maven-plugin</artifactId>
-          <version>1.0-beta-4</version>
-          <configuration>
-            <serverId>gcs-release</serverId>
-            <url>gs://update.pizzafactory.jp/express/${pizzafactory-version}/</url>
-            <fromDir>target/repository</fromDir>
-            <toDir>build_${qualifiedVersion}</toDir>
-          </configuration>
-          <executions>
-            <execution>
-                  <id>upload</id>
-                  <phase>deploy</phase>
-                  <goals>
-                        <goal>upload</goal>
-                  </goals>
-            </execution>
-          </executions>
-        </plugin>
-
       </plugins>
     </build>
 </project>

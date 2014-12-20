@@ -1,11 +1,11 @@
 language: java
 env:
   global:
-    secure: gYO0xRy5H+OGtUKA5LtqnSGBjxNOsGYmNkDm5GdQ1oxzYVooZxoZl+Hx/wo2piKKek6+AIXQxehOECJruWCyhYo8JCcxYgEVkBjV8ToepbM9SWM1jZdv7SMRW69DCFL3p+VJUeQYjNzdPkcNgltWPBeQyQ8rJv6Hw+eLYgorWpk=
+  - MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=128m"
+  - secure: JQZJB7KwydPqR3yAwwXPsXr9D8OmTuMYTZZbvjUC8sscRRyMexoWYtFgvssbfDjVSLrGK3vyC2Ufa+5EuXpw8xR1C/EINnW+/L15wywPgAg8J2Nh76kE8KLUKCpQyYw1zUz9VxJRjnR7CgVTE3UrLXhrf3bQuBmBwOyiiNy7Z0c=
+  - secure: PWUKoyPcARaAeJc0TuhWy74FlB+4g4mIV2WTb1hdZFKTtxFsYXN9lyFKrr7Q2osZIcBnp+aDV446kyoBQwx+tMzPLrDC0I8/R9Oo3rl5ochOvblSN2MYmHkleCqNu399OkMQhLSDSmBWiEFZDtVuQLgWsdGIJ+ucPDUhNYUxAPI=
 before_install:
- - export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=128m"
- - "git clone --depth 1 -b travis $(git config --get remote.origin.url) target/travis"
- - "(cd target/travis; openssl aes-256-cbc -k $DECRYPT_KEY -in encrypted.enc -d -a | tar xf -)"
+- git clone --depth 1 -b travis $(git config --get remote.origin.url) target/travis
 script: mvn -f parent/pom.xml -s target/travis/settings.xml install
 branches:
   except: travis
