@@ -52,22 +52,6 @@
     <module>../p2update</module>
   </modules>
 
-  <profiles>
-    <profile>
-      <id>platform-indigo</id>
-      <activation>
-        <property>
-          <name>platform-version-name</name>
-          <value>indigo</value>
-        </property>
-      </activation>
-      <properties>
-        <eclipse-site>http://download.eclipse.org/releases/indigo</eclipse-site>
-        <platform-version>[3.7,3.8)</platform-version>
-      </properties>
-    </profile>
-  </profiles>
-
   <repositories>
     <repository>
       <id>Licenses</id>
@@ -267,7 +251,7 @@
     <snapshotRepository>
       <id>builder.monami-ya.com</id>
       <name>Nexus Snapshot Repository on Monami-ya</name>
-      <url>http://builder.monami-ya.com:8080/nexus/content/repositories/snapshot/</url>
+      <url>http://builder.monami-ya.com:8080/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
