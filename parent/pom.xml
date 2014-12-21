@@ -38,10 +38,10 @@
   </properties>
 
   <scm>
-    <connection>scm:git:ssh://github.com/PizzaFactory/express.git</connection>
+    <connection>scm:git:https://github.com/PizzaFactory/express.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/PizzaFactory/express.git</developerConnection>
     <url>https://github.com/PizzaFactory/express.git</url>
-    <tag>develop</tag>
+    <tag>master</tag>
   </scm>
 
   <modules>
