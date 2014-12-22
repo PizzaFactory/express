@@ -228,16 +228,6 @@
         <version>2.2.1</version>
       </plugin>
 
-      <plugin>
-        <groupId>de.jutzig</groupId>
-          <artifactId>github-release-plugin</artifactId>
-          <version>1.1.0</version>
-          <configuration>
-            <description>Alpha release. Your issue report appreciated</description>
-            <releaseName>${project.version}</releaseName>
-            <tag>${project_version}</tag>
-          </configuration>
-      </plugin>
     </plugins>
 
     <extensions>
