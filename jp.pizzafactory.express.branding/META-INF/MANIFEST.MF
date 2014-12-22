@@ -2,6 +2,6 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: PizzaFactory
 Bundle-SymbolicName: jp.pizzafactory.express.branding;singleton:=true
-Bundle-Version: 8.5.0.I201412210212
+Bundle-Version: 8.5.0.I201412222129
 Bundle-Vendor: PizzaFactory Project
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
