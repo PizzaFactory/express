@@ -10,7 +10,7 @@
 
   <groupId>jp.pizzafactory.express</groupId>
   <artifactId>parent</artifactId>
-  <version>8.5.0.I201412210212</version>
+  <version>8.5.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>PizzaFactory Express</name>
@@ -41,7 +41,7 @@
     <connection>scm:git:https://github.com/PizzaFactory/express.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/PizzaFactory/express.git</developerConnection>
     <url>https://github.com/PizzaFactory/express.git</url>
-    <tag>master</tag>
+    <tag>develop</tag>
   </scm>
 
   <modules>
