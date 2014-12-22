@@ -10,7 +10,7 @@
 
   <groupId>jp.pizzafactory.express</groupId>
   <artifactId>parent</artifactId>
-  <version>8.5.0-SNAPSHOT</version>
+  <version>8.5.0.I201412210212</version>
   <packaging>pom</packaging>
 
   <name>PizzaFactory Express</name>
@@ -38,10 +38,10 @@
   </properties>
 
   <scm>
-    <connection>scm:git:ssh://github.com/PizzaFactory/express.git</connection>
+    <connection>scm:git:https://github.com/PizzaFactory/express.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/PizzaFactory/express.git</developerConnection>
     <url>https://github.com/PizzaFactory/express.git</url>
-    <tag>develop</tag>
+    <tag>master</tag>
   </scm>
 
   <modules>
@@ -210,6 +210,17 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>2.2.1</version>
+      </plugin>
+
+      <plugin>
+        <groupId>de.jutzig</groupId>
+          <artifactId>github-release-plugin</artifactId>
+          <version>1.1.0</version>
+          <configuration>
+            <description>Alpha release. Your issue report appreciated</description>
+            <releaseName>${project.version}</releaseName>
+            <tag>${project_version}</tag>
+          </configuration>
       </plugin>
     </plugins>
 
