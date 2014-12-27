@@ -10,7 +10,7 @@
   <name>PizzaFactory (Target definition)</name>
 
   <parent>
-    <version>8.5.0-SNAPSHOT</version>
+    <version>8.5.0.I201412270906</version>
     <groupId>jp.pizzafactory.express</groupId>
     <artifactId>parent</artifactId>
     <relativePath>../parent/pom.xml</relativePath>
