@@ -76,7 +76,7 @@
     <repository>
       <id>JRE</id>
       <layout>p2</layout>
-      <url>http://builder.monami-ya.com:8080/nexus/content/unzip/master.group.unzip/jp/pizzafactory/jre/p2update/1.7.25.v20141223-0752/p2update-1.7.25.v20141223-0752.zip-unzip/</url>
+      <url>http://builder.monami-ya.com:8080/nexus/content/unzip/master.group.unzip/jp/pizzafactory/jre/p2update/1.7.25.v20141228-0331/p2update-1.7.25.v20141228-0331.zip-unzip/</url>
     </repository>
   </repositories>
 
