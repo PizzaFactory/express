@@ -2,7 +2,7 @@
 <feature
       id="jp.pizzafactory.express"
       label="PizzaFactory8"
-      version="8.5.0.qualifier"
+      version="8.5.0.I201412280544"
       provider-name="PizzaFactory Project"
       plugin="jp.pizzafactory.express.branding"
       license-feature="org.eclipse.license"
