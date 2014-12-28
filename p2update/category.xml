@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/jp.pizzafactory.express_8.5.0.I201412280544.jar" id="jp.pizzafactory.express" version="8.5.0.I201412280544">
+   <feature url="features/jp.pizzafactory.express_8.5.0.qualifier.jar" id="jp.pizzafactory.express" version="8.5.0.qualifier">
       <category name="PizzaFactory Core"/>
    </feature>
    <category-def name="PizzaFactory Core" label="PizzaFactory Express">
