@@ -48,7 +48,7 @@
     <module>../build-target</module>
     <module>../jp.pizzafactory.product</module>
     <module>../jp.pizzafactory.express.branding</module>
-    <module>../jp.pizzafactory.express-feature</module>
+    <module>../jp.pizzafactory.express</module>
     <module>../p2update</module>
   </modules>
 
@@ -59,24 +59,19 @@
       <url>http://download.eclipse.org/cbi/updates/license/</url>
     </repository>
     <repository>
-      <id>updates</id>
-      <layout>p2</layout>
-      <url>http://download.eclipse.org/eclipse/updates/4.2/</url>
-    </repository>
-    <repository>
       <id>Luna</id>
       <layout>p2</layout>
       <url>http://download.eclipse.org/releases/luna/</url>
     </repository>
     <repository>
-      <id>CDT</id>
+      <id>PizzaFactory Crust</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/tools/cdt/releases/8.5/</url>
+      <url>http://builder.monami-ya.com:8080/composite.p2/jp/pizzafactory/crust/p2update/8.5/</url>
     </repository>
     <repository>
       <id>JRE</id>
       <layout>p2</layout>
-      <url>http://builder.monami-ya.com:8080/nexus/content/unzip/master.group.unzip/jp/pizzafactory/jre/p2update/1.7.25.v20141228-0331/p2update-1.7.25.v20141228-0331.zip-unzip/</url>
+      <url>http://builder.monami-ya.com:8080/composite.p2/jp/pizzafactory/jre/p2update/1.7/</url>
     </repository>
   </repositories>
 
@@ -146,8 +141,8 @@
           </execution>
         </executions>
         <configuration>
-          <metadataRepositoryName>PizzaFactory ${pizzafactory-version}</metadataRepositoryName>
-          <artifactRepositoryName>PizzaFactory ${pizzafactory-version}</artifactRepositoryName>
+          <metadataRepositoryName>PizzaFactory Express ${pizzafactory-version}</metadataRepositoryName>
+          <artifactRepositoryName>PizzaFactory Express ${pizzafactory-version}</artifactRepositoryName>
           <compressRepository>true</compressRepository>
         </configuration>
       </plugin>
@@ -165,7 +160,7 @@
         </dependencies>
         <configuration>
           <strictBinIncludes>false</strictBinIncludes>
-          <format>'v'yyyyMMdd-HHmm</format>
+          <format>'I'yyyyMMdd-HHmm</format>
           <timestampProvider>jgit</timestampProvider>
           <jgit.ignore>
             pom.xml
