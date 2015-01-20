@@ -27,7 +27,7 @@ There are components included under open source license in this product. See eac
       startupProgressRect="5,275,445,15"
       startupMessageRect="7,252,445,20"
       startupForegroundColor="000000" />
-   <launcher name="pizza8_5">
+   <launcher name="pizza8">
       <linux icon="images/pizza.xpm"/>
       <macosx icon="images/pizza.icns"/>
       <solaris/>
