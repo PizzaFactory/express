@@ -9,7 +9,7 @@ git flow release start $newVersion
 mvn -f parent/pom.xml tycho-versions:set-version -DnewVersion=$newVersion
 git add .
 git commit -m 'Prepare for release.' 
-git flow release -s finish $newVersion
+git flow release finish -s $newVersion
 
 mvn -f parent/pom.xml tycho-versions:set-version -DnewVersion=${versionBase}.qualifier
 git add .
