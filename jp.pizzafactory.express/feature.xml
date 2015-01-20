@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="jp.pizzafactory.express"
+      label="PizzaFactory Express"
+      version="8.5.0.M20150120-0445"
+      provider-name="PizzaFactory Project"
+      plugin="jp.pizzafactory.express.branding"
+      license-feature="org.eclipse.license"
+      license-feature-version="1.0.1.v20140414-1359">
+
+   <description url="http://www.pizzafactory.jp/">
+PizzaFactory Express (Free beer) Edition
+   </description>
+
+   <copyright>
+Product: Copyright (C) 2005-2010 Monami Software Limited Partnership, JAPAN.\n\
+Product: Copyright (C) 2012-     Monami-ya LLC, Japan.\n\
+Product: Copyright (C) 2014-     PizzaFactory Project.\n\
+It contains so many open source software in this product.
+See also copyright notices in those software.
+   </copyright>
+
+   <license>
+      See license information in your install package.
+   </license>
+
+   <url>
+      <update label="PizzaFactory Express Update Site" url="http://update.pizzafactory.jp/express/8.5/"/>
+      <discovery label="PizzaFactory Express Update Site" url="http://update.pizzafactory.jp/express/8.5/"/>
+   </url>
+
+   <plugin
+         id="jp.pizzafactory.express.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="jp.pizzafactory.product"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   
+</feature>

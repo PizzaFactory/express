@@ -6,7 +6,7 @@
     <parent>
         <groupId>jp.pizzafactory.express</groupId>
         <artifactId>parent</artifactId>
-        <version>8.5.0.I201412280544</version>
+        <version>8.5.0.M20150120-0445</version>
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
@@ -63,7 +63,7 @@
                   <configuration>
                     <releaseName>${project.version}</releaseName>
                     <tag>${project.version}</tag>
-                    <artifact>${project.build.directory}/products/pizzafactory.product-macosx.cocoa.x86_64.zip</artifact>
+                    <artifact>${project.build.directory}/products/pizzafactory.express-macosx.cocoa.x86_64.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
                   </configuration>
                 </execution>
@@ -77,7 +77,7 @@
                   <configuration>
                     <releaseName>${project.version}</releaseName>
                     <tag>${project.version}</tag>
-                    <artifact>${project.build.directory}/products/pizzafactory.product-linux.gtk.x86.zip</artifact>
+                    <artifact>${project.build.directory}/products/pizzafactory.express-linux.gtk.x86.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
                   </configuration>
                 </execution>
@@ -91,7 +91,7 @@
                   <configuration>
                     <releaseName>v${project.version}</releaseName>
                     <tag>${project.version}</tag>
-                    <artifact>${project.build.directory}/products/pizzafactory.product-win32.win32.x86_64.zip</artifact>
+                    <artifact>${project.build.directory}/products/pizzafactory.express-win32.win32.x86_64.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
                   </configuration>
                 </execution>
@@ -105,7 +105,7 @@
                   <configuration>
                     <releaseName>v${project.version}</releaseName>
                     <tag>${project.version}</tag>
-                    <artifact>${project.build.directory}/products/pizzafactory.product-linux.gtk.x86_64.zip</artifact>
+                    <artifact>${project.build.directory}/products/pizzafactory.express-linux.gtk.x86_64.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
                   </configuration>
                 </execution>
@@ -119,7 +119,7 @@
                   <configuration>
                     <releaseName>v${project.version}</releaseName>
                     <tag>${project.version}</tag>
-                    <artifact>${project.build.directory}/products/pizzafactory.product-win32.win32.x86.zip</artifact>
+                    <artifact>${project.build.directory}/products/pizzafactory.express-win32.win32.x86.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
                   </configuration>
                 </execution>
