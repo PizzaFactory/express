@@ -89,7 +89,7 @@
                   </goals>
                   <inherited>false</inherited>
                   <configuration>
-                    <releaseName>v${project.version}</releaseName>
+                    <releaseName>${project.version}</releaseName>
                     <tag>${project.version}</tag>
                     <artifact>${project.build.directory}/products/pizzafactory.express-win32.win32.x86_64.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
@@ -103,7 +103,7 @@
                   </goals>
                   <inherited>false</inherited>
                   <configuration>
-                    <releaseName>v${project.version}</releaseName>
+                    <releaseName>${project.version}</releaseName>
                     <tag>${project.version}</tag>
                     <artifact>${project.build.directory}/products/pizzafactory.express-linux.gtk.x86_64.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
@@ -117,7 +117,7 @@
                   </goals>
                   <inherited>false</inherited>
                   <configuration>
-                    <releaseName>v${project.version}</releaseName>
+                    <releaseName>${project.version}</releaseName>
                     <tag>${project.version}</tag>
                     <artifact>${project.build.directory}/products/pizzafactory.express-win32.win32.x86.zip</artifact>
                     <repositoryId>PizzaFactory/express</repositoryId>
