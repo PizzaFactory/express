@@ -209,13 +209,6 @@
 
     </plugins>
 
-    <extensions>
-      <extension>
-        <groupId>jp.pizzafactory.maven</groupId>
-        <artifactId>s3-maven-wagon</artifactId>
-        <version>3.3</version>
-      </extension>
-    </extensions>
   </build>
   <url>http://www.pizzafactory.jp/</url>
   <organization>
