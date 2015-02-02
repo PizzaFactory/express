@@ -6,7 +6,7 @@
     <parent>
         <groupId>jp.pizzafactory.express</groupId>
         <artifactId>parent</artifactId>
-        <version>8.5.0.M20150120-0708</version>
+        <version>8.5.0.M20150202-0722</version>
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 

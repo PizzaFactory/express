@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="PizzaFactory" uid="pizzafactory.express" id="jp.pizzafactory.product.express" application="org.eclipse.ui.ide.workbench" version="8.5.0.M20150120-0708" useFeatures="true" includeLaunchers="true">
+<product name="PizzaFactory" uid="pizzafactory.express" id="jp.pizzafactory.product.express" application="org.eclipse.ui.ide.workbench" version="8.5.0.M20150202-0722" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/jp.pizzafactory.product/images/pizza_lg.gif"/>

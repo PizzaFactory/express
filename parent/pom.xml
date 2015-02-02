@@ -10,7 +10,7 @@
 
   <groupId>jp.pizzafactory.express</groupId>
   <artifactId>parent</artifactId>
-  <version>8.5.0.M20150120-0708</version>
+  <version>8.5.0.M20150202-0722</version>
   <packaging>pom</packaging>
 
   <name>PizzaFactory Express</name>
@@ -209,13 +209,6 @@
 
     </plugins>
 
-    <extensions>
-      <extension>
-        <groupId>jp.pizzafactory.maven</groupId>
-        <artifactId>s3-maven-wagon</artifactId>
-        <version>3.3</version>
-      </extension>
-    </extensions>
   </build>
   <url>http://www.pizzafactory.jp/</url>
   <organization>
