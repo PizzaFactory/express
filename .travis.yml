@@ -1,4 +1,5 @@
 language: java
+sudo: false
 env:
   global:
   - MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=128m"
@@ -6,6 +7,9 @@ env:
   - secure: PWUKoyPcARaAeJc0TuhWy74FlB+4g4mIV2WTb1hdZFKTtxFsYXN9lyFKrr7Q2osZIcBnp+aDV446kyoBQwx+tMzPLrDC0I8/R9Oo3rl5ochOvblSN2MYmHkleCqNu399OkMQhLSDSmBWiEFZDtVuQLgWsdGIJ+ucPDUhNYUxAPI=
 before_install:
 - git clone --depth 1 -b travis $(git config --get remote.origin.url) target/travis
-script: mvn -f parent/pom.xml -s target/travis/settings.xml install
+script:
+- if [[ "x$TRAVIS_BRANCH" == "xmaster" && "x$TRAVIS_PULL_REQUEST" == "xfalse" ]]; then GOAL=deploy; else GOAL=install; fi
+- echo "Goal is " $GOAL
+- mvn -f parent/pom.xml -s target/travis/settings.xml clean $GOAL
 branches:
   except: travis
