@@ -1,6 +1,10 @@
 instructions.configure=\
-	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:0,name:PizzaFactory8,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
-	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:1,name:PizzaFactory8,location:http${#58}//update.pizzafactory.jp/express/8.5/);
+	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:0,name:PizzaFactory8.5 Express,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:1,name:PizzaFactory8.5 Express,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:0,name:mRDT for PizzaFactory,location:http${#58}//update.pizzafactory.jp/mruby/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(type:1,name:mRDT for PizzaFactory,location:http${#58}//update.pizzafactory.jp/mruby/8.5/);
 instructions.unconfigure=\
-	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:0,name:PizzaFactory8,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
-	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:1,name:PizzaFactory8,location:http${#58}//update.pizzafactory.jp/express/8.5/);
+	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:0,name:PizzaFactory8.5 Express,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:1,name:PizzaFactory8.5 Express,location:http${#58}//update.pizzafactory.jp/express/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:0,name:mRDT for PizzaFactory,location:http${#58}//update.pizzafactory.jp/mruby/8.5/);\
+	  org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(type:1,name:mRDT for PizzaFactory,location:http${#58}//update.pizzafactory.jp/mruby/8.5/);
